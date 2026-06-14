@@ -1,0 +1,16 @@
+# Keep GitHub's language statistics focused on the PHP library.
+docs/**            linguist-documentation
+native/**          linguist-vendored
+samples/**         linguist-vendored
+assets/**          linguist-vendored
+.github/**         linguist-vendored
+examples/signed/** linguist-generated
+
+# Treat the bundled engines and sample binaries as binary.
+*.dll   binary
+*.so    binary
+*.dylib binary
+*.pfx   binary
+*.p12   binary
+*.pdf   binary
+*.png   binary

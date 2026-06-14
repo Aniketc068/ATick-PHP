@@ -1,0 +1,102 @@
+/* ATick docs — Claude-Code-docs design language (navbar + tabs + dual sidebar + serif headings),
+   with ATick's own green brand accent. */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap');
+
+/* ---- palette ---- */
+:root, html[data-theme="light"] {
+  --atk: #1f9d4d;                 /* ATick green */
+  --atk-hi: #157a3a;
+  --pst-color-primary: #1f9d4d;
+  --pst-color-primary-highlight: #157a3a;
+  --pst-color-link: #1f9d4d;
+  --pst-color-link-hover: #157a3a;
+  --pst-color-accent: #1f9d4d;
+  --pst-font-family-heading: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --pst-font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --pst-header-height: 4rem;
+}
+html[data-theme="dark"] {
+  --atk: #3fc46e;
+  --atk-hi: #5fd488;
+  --pst-color-primary: #3fc46e;
+  --pst-color-primary-highlight: #5fd488;
+  --pst-color-link: #3fc46e;
+  --pst-color-link-hover: #5fd488;
+  --pst-color-background: #17110d;        /* warm near-black, like the reference */
+  --pst-color-on-background: #1e1813;     /* navbar / cards surface */
+  --pst-color-surface: #221b15;
+  --pst-color-text-base: #e9; /* fallback */
+  --pst-color-text-base: #e7e1d8;
+  --pst-color-text-muted: #b8b0a4;
+}
+
+/* ---- typography: serif headings, like Claude docs ---- */
+h1, h2, h3, h4, .bd-content h1, .bd-content h2, .bd-content h3 {
+  font-family: var(--pst-font-family-heading);
+  font-weight: 600;
+  letter-spacing: -0.012em;
+}
+.bd-content h1 { font-size: 2.55rem; margin-bottom: .6rem; }
+.bd-content h2 { font-size: 1.7rem; margin-top: 2.4rem; }
+body { font-family: var(--pst-font-family-base); }
+.bd-article { line-height: 1.62; }
+
+/* ---- top navbar ---- */
+.bd-header { box-shadow: 0 1px 0 var(--pst-color-border); }
+.navbar-brand .title { font-family: var(--pst-font-family-heading); font-weight: 700; font-size: 1.18rem; }
+.bd-header .navbar-nav .nav-link { font-weight: 500; }
+.bd-header .navbar-nav li.current > .nav-link,
+.bd-header .navbar-nav .nav-link:hover { color: var(--atk); }
+.bd-header .navbar-nav li.current > .nav-link {
+  border-bottom: 2px solid var(--atk); padding-bottom: .25rem;
+}
+
+/* ---- left sidebar (section nav) ---- */
+nav.bd-links .current > a { color: var(--atk) !important; font-weight: 600; }
+nav.bd-links a:hover { color: var(--atk); }
+.bd-sidebar-primary { font-size: .92rem; }
+.bd-sidebar-primary .caption-text { color: var(--pst-color-text-muted); text-transform: uppercase; letter-spacing: .04em; font-size: .76rem; }
+
+/* ---- right "On this page" ---- */
+.bd-sidebar-secondary .toc-entry a.active { color: var(--atk); font-weight: 600; border-left-color: var(--atk); }
+
+/* ---- landing hero (centered) ---- */
+.hero-mark { display:block; margin: 1.6rem auto .3rem; filter: drop-shadow(0 6px 14px rgba(0,0,0,.14)); }
+.hero-title {
+  text-align:center; font-family: var(--pst-font-family-heading);
+  font-size: 3.1rem; font-weight: 700; letter-spacing:-0.02em; line-height:1.08; margin:.2rem 0 .6rem;
+}
+.hero-sub {
+  text-align:center; font-size:1.16rem; line-height:1.6;
+  color: var(--pst-color-text-muted); max-width: 41rem; margin: 0 auto 1.6rem;
+}
+.hero-buttons { display:flex; gap:.7rem; justify-content:center; flex-wrap:wrap; margin-bottom: 2.2rem; }
+.hero-buttons p { margin:0; }
+.hero-btn { border-radius:10px !important; font-weight:600 !important; padding:.55rem 1.3rem !important; }
+
+/* ---- buttons ---- */
+.sd-btn-primary { background: var(--atk) !important; border-color: var(--atk) !important; color:#fff !important; }
+.sd-btn-primary:hover { background: var(--atk-hi) !important; border-color: var(--atk-hi) !important; }
+.sd-btn-outline-primary { color: var(--atk) !important; border-color: var(--atk) !important; }
+.sd-btn-outline-primary:hover { background: var(--atk) !important; color:#fff !important; }
+
+/* ---- feature cards ---- */
+.sd-card { border:1px solid var(--pst-color-border); border-radius:14px; transition: transform .16s ease, box-shadow .16s ease, border-color .16s ease; }
+.sd-card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(0,0,0,.10); border-color: var(--atk); }
+.sd-card-title { font-family: var(--pst-font-family-base); font-weight: 700; font-size: 1.04rem; }
+.sd-card-title .sd-text-success { color: var(--atk) !important; }
+.sd-card .sd-card-footer { border:0; }
+.sd-card .sd-card-footer a { color: var(--atk); font-weight:600; }
+
+/* ---- code blocks ---- */
+div.highlight { border-radius: 10px; }
+code.literal { color: var(--atk-hi); }
+
+/* ---- screenshot images ---- */
+img.shadow-img {
+  border-radius: 10px;
+  border: 1px solid var(--pst-color-border);
+  box-shadow: 0 8px 26px rgba(0,0,0,.14);
+  margin: 0.6rem auto 1rem;
+}

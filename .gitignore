@@ -1,0 +1,13 @@
+# Composer
+/vendor/
+composer.lock
+
+# documentation build output
+/docs/_build/
+
+# example output
+examples/signed/
+
+# local scratch / test files
+test_local.php
+*.bak

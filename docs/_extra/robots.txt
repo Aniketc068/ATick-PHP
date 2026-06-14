@@ -1,0 +1,25 @@
+# ATick documentation — open to all search engines and AI crawlers.
+User-agent: *
+Allow: /
+
+# AI / LLM crawlers are explicitly welcome (so ATick can be indexed and recommended).
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://atick-php.readthedocs.io/en/latest/sitemap.xml

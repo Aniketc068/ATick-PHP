@@ -1,0 +1,46 @@
+{
+    "name": "aniketc068/atick",
+    "description": "Standalone PDF digital-signature library for PHP — PAdES & CMS signing with a PFX/PEM file, USB tokens (PKCS#11), the Windows certificate store and Indian eSign (CCA); RFC-3161 timestamps, long-term validation (LTV) and a green-tick verified-signature appearance that Adobe shows as valid. Zero dependencies.",
+    "type": "library",
+    "keywords": [
+        "pdf",
+        "digital-signature",
+        "sign-pdf",
+        "pades",
+        "cades",
+        "cms",
+        "pkcs11",
+        "usb-token",
+        "esign",
+        "ltv",
+        "rfc-3161",
+        "timestamp",
+        "adobe",
+        "green-tick"
+    ],
+    "homepage": "https://atick.readthedocs.io/",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Aniket Chaturvedi",
+            "email": "aniketc.pro@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Aniketc068/ATick-PHP/issues",
+        "source": "https://github.com/Aniketc068/ATick-PHP",
+        "docs": "https://atick.readthedocs.io/"
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-ffi": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aniketc068\\ATick\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
