@@ -4,8 +4,8 @@
 project = "ATick for PHP"
 author = "Aniket Chaturvedi"
 copyright = "2026, Aniket Chaturvedi"
-release = "1.0.5"
-version = "1.0.5"
+release = "1.0.6"
+version = "1.0.6"
 
 extensions = [
     "myst_parser",

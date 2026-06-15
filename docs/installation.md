@@ -30,7 +30,7 @@ require 'vendor/autoload.php';
 
 use Aniketc068\ATick\Atick;
 
-echo Atick::version(), "\n";   // e.g. 1.0.5
+echo Atick::version(), "\n";   // e.g. 1.0.6
 ```
 
 ## How the bundled engine is loaded

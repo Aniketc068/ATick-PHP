@@ -15,7 +15,7 @@ sd_hide_title: true
   "applicationCategory": "DeveloperApplication",
   "operatingSystem": "Windows, Linux, macOS",
   "programmingLanguage": "PHP",
-  "softwareVersion": "1.0.5",
+  "softwareVersion": "1.0.6",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
   "license": "https://www.gnu.org/licenses/agpl-3.0.html",
   "author": { "@type": "Person", "name": "Aniket Chaturvedi" },
