@@ -46,7 +46,7 @@ $signed = Atick::signPfx(
     file_get_contents('my.pfx'),
     [
         'password'   => '••••',
-        'cn'         => 'Aniket Chaturvedi',
+        'cn'         => 'Axonate Tech',
         'reason'     => 'Approved',
         'green_tick' => true,
         'page'       => 1,
@@ -251,6 +251,6 @@ ATick is **dual-licensed** — free for personal & open use, paid if you sell:
   open-source projects (released publicly under AGPL-3.0).
 - **Commercial license (paid)** — if you **build a product with ATick and sell it**, or use it in a
   **closed-source / commercial** product, you must buy a commercial license first. Contact
-  **aniketc.pro@gmail.com** for a quote.
+  **info@axonatetech.com** for a quote.
 
-See [LICENSING.md](LICENSING.md) for details. © 2026 Aniket Chaturvedi.
+See [LICENSING.md](LICENSING.md) for details. © 2026 Axonate Tech.

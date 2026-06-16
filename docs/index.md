@@ -18,7 +18,7 @@ sd_hide_title: true
   "softwareVersion": "1.0.6",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
   "license": "https://www.gnu.org/licenses/agpl-3.0.html",
-  "author": { "@type": "Person", "name": "Aniket Chaturvedi" },
+  "author": { "@type": "Person", "name": "Axonate Tech" },
   "url": "https://atick-php.readthedocs.io/",
   "codeRepository": "https://github.com/Aniketc068/ATick-PHP",
   "downloadUrl": "https://packagist.org/packages/aniketc068/atick",
@@ -66,7 +66,7 @@ use Aniketc068\ATick\Atick;
 $signed = Atick::signPfx(
     file_get_contents('doc.pdf'),
     file_get_contents('my.pfx'),
-    ['password' => '••••', 'cn' => 'Aniket Chaturvedi', 'reason' => 'Approved',
+    ['password' => '••••', 'cn' => 'Axonate Tech', 'reason' => 'Approved',
      'green_tick' => true, 'page' => 1, 'rect' => [300, 55, 575, 175],
      'pades' => true, 'timestamp' => true, 'ltv' => true],
 );

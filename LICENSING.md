@@ -20,7 +20,7 @@ in any **closed-source / commercial** product, you must **purchase a commercial 
 **You may begin selling or shipping only after the commercial-license fee is paid and your license
 is issued.** Pricing depends on use (per product / per seat / per revenue tier).
 
-> Contact **aniketc.pro@gmail.com** for a commercial-license quote.
+> Contact **info@axonatetech.com** for a commercial-license quote.
 
 | Your use | License | Cost |
 |---|---|---|

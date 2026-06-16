@@ -13,7 +13,7 @@ disclosure.
 
 **Please do not report security issues through public GitHub issues.**
 
-Instead, email **aniketc.pro@gmail.com** with:
+Instead, email **info@axonatetech.com** with:
 
 - a description of the issue and its impact,
 - steps to reproduce (a minimal proof of concept if possible),

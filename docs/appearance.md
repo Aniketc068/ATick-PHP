@@ -12,7 +12,7 @@ $pdf = file_get_contents("doc.pdf");
 $pfx = file_get_contents("my.pfx");
 
 $signed = Atick::signPfx($pdf, $pfx, [
-    "cn"         => "Aniket Chaturvedi",   // common name (shown bold after "Digitally Signed by:")
+    "cn"         => "Axonate Tech",   // common name (shown bold after "Digitally Signed by:")
     "org"        => "Acme Corp",           // organisation line
     "reason"     => "Approved",            // "Reason: …"
     "location"   => "New Delhi",           // "Location: …"
@@ -161,8 +161,8 @@ Use `mark_scale` to resize the mark relative to the appearance box.
 
 ```php
 Atick::signPfx($pdf, $pfx, [
-    "cn" => "Aniket Chaturvedi",
-    "dn" => "CN=Aniket Chaturvedi, O=Personal, C=IN",
+    "cn" => "Axonate Tech",
+    "dn" => "CN=Axonate Tech, O=Personal, C=IN",
 ]);
 ```
 
@@ -175,7 +175,7 @@ new line and `*word*` makes that run **bold**:
 
 ```php
 Atick::signPfx($pdf, $pfx, [
-    "body" => "*APPROVED*\nReviewed by: *Aniket Chaturvedi*\nThis document is *legally binding*.",
+    "body" => "*APPROVED*\nReviewed by: *Axonate Tech*\nThis document is *legally binding*.",
 ]);
 ```
 

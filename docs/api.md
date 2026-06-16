@@ -49,7 +49,7 @@ $pfx = file_get_contents("signer.pfx");
 
 $options = [
     "password"  => "secret",
-    "cn"        => "Aniket Chaturvedi",
+    "cn"        => "Axonate Tech",
     "reason"    => "Approval",
     "page"      => 1,
     "rect"      => [40, 40, 240, 140],

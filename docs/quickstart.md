@@ -12,7 +12,7 @@ $pdf = file_get_contents("doc.pdf");
 $pfx = file_get_contents("my.pfx");
 
 $signed = Atick::signPfx($pdf, $pfx, [
-    "password" => "••••", "cn" => "Aniket Chaturvedi", "reason" => "Approved",
+    "password" => "••••", "cn" => "Axonate Tech", "reason" => "Approved",
     "green_tick" => true, "page" => 1, "rect" => [300, 55, 575, 175],
     "pades" => true, "timestamp" => true, "ltv" => true,   // PAdES-B-LT
 ]);

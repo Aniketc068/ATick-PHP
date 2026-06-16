@@ -2,8 +2,8 @@
 # Build locally:   pip install -r docs/requirements.txt && sphinx-build -b html docs docs/_build
 
 project = "ATick for PHP"
-author = "Aniket Chaturvedi"
-copyright = "2026, Aniket Chaturvedi"
+author = "Axonate Tech"
+copyright = "2026, Axonate Tech"
 release = "1.0.6"
 version = "1.0.6"
 
