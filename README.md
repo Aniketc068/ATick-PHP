@@ -22,10 +22,10 @@
 
 | Language | Install | Source · Docs |
 |---|---|---|
-| **Python** | `pip install atick` | [ATick-Python](https://github.com/Aniketc068/ATick-Python) · [docs](https://atick-web.readthedocs.io/docs/python/) |
-| **Java** | `io.github.aniketc068:atick` (Maven) | [ATick-Java](https://github.com/Aniketc068/ATick-Java) · [docs](https://atick-web.readthedocs.io/docs/java/) |
-| **.NET** | `dotnet add package ATick` | [ATick-DotNet](https://github.com/Aniketc068/ATick-DotNet) · [docs](https://atick-web.readthedocs.io/docs/dotnet/) |
-| **Node.js** | `npm install atick` | [ATick-Node](https://github.com/Aniketc068/ATick-Node) · [docs](https://atick-web.readthedocs.io/docs/node/) |
+| **Python** | `pip install atick` | [ATick-Python](https://github.com/Aniketc068/ATick-Python) · [docs](https://atick.readthedocs.io/docs/python/) |
+| **Java** | `io.github.aniketc068:atick` (Maven) | [ATick-Java](https://github.com/Aniketc068/ATick-Java) · [docs](https://atick.readthedocs.io/docs/java/) |
+| **.NET** | `dotnet add package ATick` | [ATick-DotNet](https://github.com/Aniketc068/ATick-DotNet) · [docs](https://atick.readthedocs.io/docs/dotnet/) |
+| **Node.js** | `npm install atick` | [ATick-Node](https://github.com/Aniketc068/ATick-Node) · [docs](https://atick.readthedocs.io/docs/node/) |
 
 ---
 
